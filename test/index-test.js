@@ -37,7 +37,9 @@ describe('logWhisper(string)', function() {
 
 describe('sayHiToHeadphonedRoommate(string)', function() {
   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
+
     expect(sayHiToHeadphonedRoommate('hello')).toEqual("I can't hear you!");
+
   })
 
   it('returns "YES INDEED!" if `string` is uppercase', function() {
@@ -48,5 +50,7 @@ describe('sayHiToHeadphonedRoommate(string)', function() {
     expect(sayHiToHeadphonedRoommate("Let's have dinner together!")).toEqual(
       "I would love to!"
     );
-  });
+    
+  })
+  
 })
